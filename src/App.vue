@@ -17,12 +17,8 @@
      </a>
       <a class='mui-tab-item ' href="#tabbar">
        <span class='mui-icon mui-icon-contact'></span>
-       <span class='mui-tab-label'>内容</gitspan>
+       <span class='mui-tab-label'>内容</span>
      </a>
-      <!-- <a class='mui-tab-item ' href="#tabbar">
-       <span class='mui-icon mui-icon-gear'></span>
-       <span class='mui-tab-label'>设置</span>
-     </a> -->
    </nav>
   </div>
 </template>
