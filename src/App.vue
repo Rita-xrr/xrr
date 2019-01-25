@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    test
     <!-- 放置顶部header区域 -->
     <mt-header fixed title="vue练手"></mt-header>
     <!-- 中间路由router-view区域 -->
@@ -16,12 +17,12 @@
      </a>
       <a class='mui-tab-item ' href="#tabbar">
        <span class='mui-icon mui-icon-contact'></span>
-       <span class='mui-tab-label'>内容</span>
+       <span class='mui-tab-label'>内容</gitspan>
      </a>
-      <a class='mui-tab-item ' href="#tabbar">
+      <!-- <a class='mui-tab-item ' href="#tabbar">
        <span class='mui-icon mui-icon-gear'></span>
        <span class='mui-tab-label'>设置</span>
-     </a>
+     </a> -->
    </nav>
   </div>
 </template>
