@@ -13,11 +13,15 @@
      </a>
       <a class='mui-tab-item ' href="#tabbar">
        <span class='mui-icon mui-icon-email'></span>
-       <span class='mui-tab-label'>邮箱</span>
+       <span class='mui-tab-label'>首页</span>
      </a>
       <a class='mui-tab-item ' href="#tabbar">
        <span class='mui-icon mui-icon-contact'></span>
-       <span class='mui-tab-label'>内容</span>
+       <span class='mui-tab-label'>首页</span>
+     </a>
+     <a class='mui-tab-item ' href="#tabbar">
+       <span class='mui-icon mui-icon-contact'></span>
+       <span class='mui-tab-label'>首页</span>
      </a>
    </nav>
   </div>
