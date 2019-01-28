@@ -18,6 +18,8 @@ Vue.use(MintUI)
 
 //导入MUI的样式
 import './lib/mui/css/mui.min.css'
+//导入MUI中扩展图标样式，如购物车
+import  './lib/mui/css/icons-extra.css'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
