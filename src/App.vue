@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    test
     <!-- 放置顶部header区域 -->
     <mt-header fixed title="vue练手"></mt-header>
     <!-- 中间路由router-view区域 -->

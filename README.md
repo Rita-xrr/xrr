@@ -28,4 +28,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     --再把扩展字体的ttf文件放到项目中
     --为 购物车 小图标 添加样式的类，（从相关HTML中找到）
     --如'mui-icon-extra mui-icon-extra-cart'
-## 在中间区域放置一个路由的坑routerview，跳转路由来填这个坑即展示路由匹配到的组件
+3. 在中间区域放置一个路由的坑routerview，跳转路由来填这个坑即展示路由匹配到的组件
+## 改造tabbar为router-link
+## 设置路由高亮
+## 点击tabbar 中的路由链接，展示对应的路由组件
+## 制作首页轮播图布局
