@@ -33,3 +33,13 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## 设置路由高亮
 ## 点击tabbar 中的路由链接，展示对应的路由组件
 ## 制作首页轮播图布局
+## 加载首页轮播图数据
+1.获取数据，使用axios获取数据
+2.自己本地模拟假数据，放在static下
+##访问服务器文件，应该把 json文件放在最外层的static文件夹，
+##这个文件夹是vue-cli内置服务器向外暴露的静态文件夹
+3.使用get方式获取，将数据保存在data上
+##一定要用get的请求方式，post就会404
+4.使用v-for渲染每个item图片项，同时绑定key值
+5.图片要宽高百分百
+##改造九宫格区域样式

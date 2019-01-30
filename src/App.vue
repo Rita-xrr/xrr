@@ -1,9 +1,16 @@
 <template>
   <div id="app">
     <!-- 放置顶部header区域 -->
-    <mt-header fixed title="vue练手"></mt-header>
+    <mt-header fixed title="西湖美景"></mt-header>
+
+
     <!-- 中间路由router-view区域 -->
-    <router-view/>
+    <transition mode="out-in">
+        <router-view/>
+    </transition>
+    
+
+
     <!-- 底部tabbar区域 -->
    <nav class='mui-bar mui-bar-tab'>
      <router-link class='mui-tab-item ' to="/home">
@@ -39,5 +46,16 @@ export default {
 <style>
 #app {
   padding-top:40px;
+  overflow-x: hidden;
+}
+.v-enter{
+  opacity: 0;
+  transform: translateX(100%)
+}
+.v-leave-to{opacity: 0;
+  transform: translateX(-100%)}
+.v-enter-active,
+.v-leave-active{
+transition: all 0.5s ease
 }
 </style>

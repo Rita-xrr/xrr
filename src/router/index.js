@@ -8,10 +8,12 @@ import HomeContainer from '../components/tabbar/HomeContainer.vue'
 import MemberContainer from '../components/tabbar/MemberContainer.vue'
 import SearchContainer from '../components/tabbar/SearchContainer.vue'
 import ShopcarContainer from '../components/tabbar/ShopcarContainer.vue'
+import NewsList from '../components/news/NewsList.vue'
 //导入axios
 import axios from 'axios'
 Vue.prototype.$axios=axios
 export default new Router({
+  //tabbar底部active时样式
   linkActiveClass:'mui-active',//覆盖默认的路由高亮的类router-link-active
   routes: [
     {
@@ -27,6 +29,7 @@ export default new Router({
     },
     {path:'/member', component:MemberContainer},
     {path:'/shopcar', component:ShopcarContainer},
-    {path:'/search', component:SearchContainer}
+    {path:'/search', component:SearchContainer},
+    {path:'/home/newslist',component:NewsList}
   ]
 })

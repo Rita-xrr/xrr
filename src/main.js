@@ -30,7 +30,6 @@ import  './lib/mui/css/icons-extra.css'
 new Vue({
   el: '#app',
   router,
-  axios,
   components: { App },
   template: '<App/>'
 })
